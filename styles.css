@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    font-family: Inconsolata;
+    box-sizing: border-box;
+}
+
+body {
+    background:rgb(0, 5, 0);
+    color:darkgreen;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor:default;
+}
+
+h1 {
+    color:chartreuse;
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    border-color:forestgreen;
+    font-size: medium;
+    margin: 20px;
+    background: rgb(0, 5, 0);
+    color: darkgreen;
+    cursor:pointer;
+    border-radius: 5%;
+}
+
+button:hover {
+    background: rgb(0, 10, 0);
+}
+
+.nav {
+    margin:0;
+    border-bottom: 1px solid chartreuse;
+}
+
+.nav ul {
+    margin:0;
+}
+
+.nav li{
+    display: inline;
+    margin:0;
+    font-weight: lighter;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color:aquamarine;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color:darkslategrey;
+}
+
+input {
+    background-color: black;
+    border-color:indigo;
+}
+
+div.with-end {
+    padding-bottom: 10px;
+    border-bottom: 1px solid chartreuse;
+}
