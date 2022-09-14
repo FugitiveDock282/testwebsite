@@ -30,6 +30,11 @@ button {
     border-radius: 5%;
 }
 
+.input-btn {
+    width : 100px;
+    height : 1.5em;
+}
+
 button:hover {
     background: rgb(0, 10, 0);
 }
@@ -63,9 +68,15 @@ button:hover {
 input {
     background-color: black;
     border-color:indigo;
+    color:green;
 }
 
 div.with-end {
-    padding-bottom: 10px;
     border-bottom: 1px solid chartreuse;
+    margin: 10% 10%;
+    padding:0;
+}
+
+.footer-img {
+    max-width: 500px;
 }

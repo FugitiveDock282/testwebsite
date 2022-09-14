@@ -3,13 +3,14 @@
     <head>
         <title>Wassup?</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="interact.js" async></script>
     </head>
     <body>
         <header>
             <nav class="nav">
                 <ul>
-                    <a href="index.html"><li>Link 1</li></a>
-                    <a href="index.html" target="_blank"><li>Link 2</li></a>
+                    <a href="index.html"><li>Reload</li></a>
+                    <a href="index.html" target="_blank"><li>Open in new tab</li></a>
                 </ul>
             </nav>
         </header>
@@ -19,21 +20,25 @@
         </section>
         <footer>
             <h2>Your answer:</h2>
-            <span>
-                <button role="button">Doin' good.</button>
-            </span>
-            <span>
-                <button role="button">STFU!</button>
-            </span>
-            <br>
-            <div class="with-end">
+            <div class="choice-buttons">
+                <span>
+                    <button role="button" class="btn">Doin' good.</button>
+                </span>
+                <span>
+                    <button role="button" class="btn">STFU!</button>
+                </span>
+            </div>
+            <div class="with-end input-div">
                 Or, <strong>make</strong> your own:&gt;
                 <span>
-                    <input type="text">
+                    <input type="text" class="msg-input">
+                </span>
+                <span>
+                    <button role="button" class="input-btn">Submit</button>
                 </span>
             </div>
             <br>
-            <img src="maxresdefault.jpg" width="70%">
+            <img src="maxresdefault.jpg" class="footer-img">
         </footer>
     </body>
 </html>
